@@ -1,47 +1,86 @@
-<!--
- * AyagawaSeirin's Page
- * Last Update: 2020-02-05
- * GitHub: https://github.com/AyagawaSeirin/
- * Made with love by AyagawaSeirin [https://qwq.best/]
- * 此个人主页运行于GithubPages，如果你也想使用，在我的公开仓库内即可找到源码。您可以任意修改，但请注明本原作者。
--->
-<html lang="zh-CN">
-<head>
-    <meta charset="utf-8">
-    <title>本站禁止海外访问</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@double/mdui/css/mdui.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="icon" href="assets/img/logo-circul-100.png">
-    <script>
-    </script>
-</head>
-<body>
-
-<div id="rin-bg"></div>
-<main id="rin-main">
-    <div id="rin-headimg"></div>
-    <div class="rin-name">LingYu&nbsp;&nbsp;Blog</div>
-    <div class="rin-description">因安全原因，本站禁止海外IP访问</div>
-    <div class=rin-description>请您使用中国IP访问</div>
-   
-    <div class=rin-description>
-    <script type="application/javascript">
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>LingYu|本站禁止境外访问</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="" />
+      <meta name="keywords" content=""/>
+      <meta name="author" content="Lingyu">
+      <meta name="robots" content="index, follow" />
+   </head>
+   <body>
+      <!--Card-->
+      <div class="card animated fadeIn">
+         <center><img class="center animated rollIn" src="https://cdn.jsdelivr.net/gh/qeqeq1/cdn@master/20210709/10.jpg" alt="avatar"></center>
+         <hr>
+         <div class="name">
+            LingYu
+         </div>
+         </br>
+         <p class="subtitle">本站禁止境外访问</p>
+         
+         <p class="subtitle">
+             <script type="application/javascript">
         function getgeoip(json){
-            document.write("IP地址: ", json.ip); 
-            document.write("国家/地区: ", json.country);
+            document.write("您的IP: ", json.ip); 
+            document.write("</br>国家/地区: ", json.country);
         }
         </script>
+        
      <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getgeoip"></script> 
-    </div>
-    <div class="rin-tr"></div>
-    <a class="mdui-btn mdui-btn-raised rin-btn mdui-text-capitalize" href="https://www.napoi.cn">Next</a>
-</main>
-<footer id="rin-footer">
-    <div>©2021 LingYu | Powered By napoi.cn | BG: <a href="https://www.pixiv.net/artworks/56652667" id="bg-link" target="_blank">Pixiv</a></div>
-</footer>
-<script src="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@double/mdui/js/mdui.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@double/assets/js/main.js"></script>
-</body>
+     </p>
+         <p class="location"><a href="http://www.napoi.cn" target="_blank">Chinese Mainland Only</a>
+         </p>
+         <p class="location"><a href="http://www.napoi.cn" target="_blank">Https://www.napoi.cn</a>
+         </p>
+         <p class="subtitle">本页面托管于Github，请您使用大陆IP访问。</p>
+         </br>
+       <!--
+
+       <p class="icons animated pulse">
+            <a href="https://twitter.com/shrinath_nayak" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+            </a>
+            <a href="https://www.facebook.com/Abhi.Nayak07" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-3x fa-stack-2x"></i>     
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+            </a>
+            <a href="https://plus.google.com/u/0/112966876017615905321" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+            </span>
+            </a>
+            <a href="https://www.instagram.com/abhijeet_n7/" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+            </a>
+            <a href="https://github.com/shrinathnayak07" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+            </a>
+         </p>
+ --> 
+      </div>
+      <!--footer-->
+      <footer class="animated fadeIn">
+         &copy; 2021 Lingyu.
+      </footer>
+   </body>
 </html>
